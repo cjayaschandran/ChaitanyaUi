@@ -1,0 +1,47 @@
+{
+  "name": "<%= appname %>",
+  "version": "<%= appversion %>",
+  "description": "<%= appdescription %>",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Javascript",
+    "Knockout",
+    "Require",
+    "Karma",
+    "Jasmine",
+    "Simon"
+  ],
+  "author": "<%= appauthor %>",
+  "license": "<%= applicense %>",
+  "devDependencies": {
+		<% if (includeModernizr) { %>
+			"grunt-contrib-requirejs": "~0.4.1",
+		<% } %>	
+		<% if (includeSass) { %>
+			"grunt-sass": "^1.0.0",
+		<% } %>	
+		<% if (includeBootstrap) { %>
+			"grunt-bootstrap": "^0.1.0",
+		<% } %>	
+		<% if (includeJQuery) { %>
+			"grunt-jquery-builder": "^0.1.1",
+		<% } %>	
+		<% if (includeAngular) { %>
+			"grunt-angular-templates": "^0.5.9",
+		<% } %>	
+		"grunt-svgmin": "^2.0.1",
+		"grunt-contrib-jshint": "^0.11.3",
+		"grunt-contrib-clean": "^0.7.0",
+		"grunt-open": "~0.2.0",
+		"grunt": "~0.4.5"
+		
+  }
+}
+
+
+
+
+
