@@ -1,6 +1,6 @@
 {
   "name": "generator-chaitanya-ui",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "This is a repository for storing the UI components for the project. The following are the setup steps to setup.",
   "main": "index.js",
   "scripts": {
